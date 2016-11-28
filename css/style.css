@@ -89,6 +89,9 @@ about us start
 	margin:0 auto;
 	}
 	
+#products ul{
+    padding-left:0
+	}	
 #products h1{
 	margin:1.6em 0 0;
 	}
@@ -127,11 +130,11 @@ about us start
 	width:100%;
 	background: url(../Elements/pic_syt.svg);
 	background-position:center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat:no-repeat;
+	background-size:cover;
 	overflow:hidden;
 	margin:0;
-	height: 30em;
+	height:30em;
 	list-style:none;
 	}
 	
