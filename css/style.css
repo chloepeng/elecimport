@@ -5,89 +5,93 @@ html,body{
 	font-family: roboto;
 	font-style: normal;
 	font-weight: 200;
-	font-size: 18px;
+	font-size: 1em;
 	}
 #nav{
 	background:#151c51;
-	height:60px;
+	height:4em;
 	width:100%;
 	position:fixed;
 }
 #nav-content{
-    height:60px;
-    width:960px;
+    height:4em;
+    width:80%;
 	margin:0 auto;
 	}
 #nav-content ul {
-    height:60px;
     margin:0;
     padding:0;
 }
 #nav-content li {
-    height:60px;
+    height:4em;
     margin:0;
-    padding:0 30px;
+    padding:0 1em;
 	float: right;
 	list-style:none;
-	line-height:60px;
+	line-height:4em;
 	color:#FFFFFF;
-	font-size:16px;
+	font-size:1em;
 	font-family:roboto;
 	font-weight:300;
 }
 	.logo {
-	height: 60px;
-	margin:0;
-	padding:0 30px;
+	height: 4em;
 	float:left;
 }
+
 #nav-content li a {
     color:#EFEFEF;
     text-decoration:none;
     width:100%;
     height:100%;
 }
+
 #post {
     width:100%;
-    height:600px;
+    height:30em;
 	background: url(banner.jpg);
 	background-position:center -100px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+about us start
+
+
 #about{
 	width:100%;
 	background: #f1f1f1;
 }
 .content {
-    height:100%;
-    margin:0 auto;
-	padding: 60px 0;
-    text-align:center;
-	color: #EFEFEF;
-	overflow:hidden;
-	
+	height: 100%;
+	margin: 0 auto;
+	padding: 3em 0;
+	text-align: center;
+	/* [disabled]color: #EFEFEF; */
+	overflow: hidden;
+	background-color: #efefef;
 }
 .content h1{
 	text-align: left;
 	color: black;	
 }
 #about .content p{
-	width: 900px;
+	width: 80%;
 	text-align: left;
-	margin: 40px auto;	
+	margin: 1em auto;	
 	}
 
 
-products start
 
 
 #products{
 	width:100%;
 	margin:0 auto;
-	
 	}
 	
+#products h1{
+	margin:1.6em 0 0;
+	}
 	
 #products .product1 {
 	width:100%;
@@ -97,19 +101,19 @@ products start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 540px;
+	height: 30em;
 	list-style:none;
 	}
     .product1 h1{
-	   width:960px;
+	   width:50%;
 	}
     .product1 p{
-	   width:960px;
+	   width:50%;
 	   }
     .product1 button{
 	   background:#FFFFFF;
-	   width:140px;
-	   height:40px;
+	   width:10em;
+	   height:3em;
 	   text-color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
@@ -127,26 +131,27 @@ products start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 540px;
+	height: 30em;
 	list-style:none;
 	}
 	
     .product2 h1{
-		width:960px;
+		width:100%;
 	   text-align:right;
+
 	
 	   
 	   }
     .product2 p{
-	   width:960px;
+	   width:100%;
 	   text-align:right;
 	   
 	   }
 	
     .product2 button{
 	   background:#FFFFFF;
-	   width:140px;
-	   height:40px;
+	   width:10em;
+	   height:3em;
 	   text-color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
@@ -165,19 +170,19 @@ products start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 540px;
+	height: 30em;
 	list-style:none;
 	}
     .product3 h1{
-	   width:960px;
+	   width:100%;
 	}
     .product3 p{
-	   width:960px;
+	   width:100%;
 	   }
     .product3 button{
 	   background:#FFFFFF;
-	   width:140px;
-	   height:40px;
+	   width:10em;
+	   height:3em;
 	   text-color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
@@ -196,26 +201,26 @@ products start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 540px;
+	height:30em;
 	list-style:none;
 	}
 	
     .product4 h1{
-		width:960px;
+		width:100%;
 	   text-align:right;
 	
 	   
 	   }
     .product4 p{
-	   width:960px;
+	   width:100%;
 	   text-align:right;
 	   
 	   }
 	
     .product4 button{
 	   background:#FFFFFF;
-	   width:140px;
-	   height:40px;
+	   width:10em;
+	   height:3em;
 	   text-color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
@@ -233,19 +238,19 @@ products start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 540px;
+	height: 30em;
 	list-style:none;
 	}
     .product5 h1{
-	   width:960px;
+	   width:100%;
 	}
     .product5 p{
-	   width:960px;
-	   }
+	   width:100%;}
+	  
     .product5 button{
 	   background:#FFFFFF;
-	   width:140px;
-	   height:40px;
+	   width:10em;
+	   height:3em;
 	   text-color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
@@ -258,45 +263,43 @@ products start
 #contact{
 	background-color: #151c51;
 	width: 100%;
-	height: 600px;
+	height: 34em;
 	margin: 0 auto;
 	}
 
 	#contact h1{
 	margin: 0 auto;
-	padding-top: 60px;
-	padding-right: 60px;
-	padding-left: 60px;
-	padding-bottom: 60px;
+	padding: 1em 0 0.6em;
+	margin:;
 	font-weight: 400;
-	font-size: 42px;
+	font-size: 2.4em;
 	text-align: center;
 	font-family: roboto;
 	font-style: normal;
 	color: #ffffff;
 		}
 	#contact .form{
-		width:960px;
+		width:80%;
 		margin:0 auto;
 		}
 	.form input{
-		width:300px;
-		height:40px;
-		margin:10px auto;
+		width:34%;
+		height:3em;
+		margin:0.6em auto;
 		color:grey;
 		font-family: roboto;
-		font-size:14px;
+		font-size:1em;
 		font-weight:300;
-		padding-left: 5px;
+		padding-left: 1%;
 		}
 		
 	#contact .buttom{
 	background: #FFFFFF;
-	width: 120px;
-	height: 40px;
-		text-align::center;
-	padding: 5px 40px;
-	margin: 12px;
+	width: 8em;
+	height: 2.8em;
+    text-align::center;
+	padding: 0.6em 1em;
+	margin: 0.2em 1em;
 	font-color: #151c51;
 	text-decoration: none;
 	text-align: center;
@@ -313,39 +316,33 @@ products start
 		
 #footer{
 	width: 100%;
-	height: 200px;
-	padding: 10px 0;
+	height: 3em;
+	padding: 1em 0;
 	background-color: #FFFFFF;
 	color: #212121;
 	}
 	
 #footer .footer-content {
-    width:960px;
+    width:80%;
     margin:0 auto;
 }
 #footer .footer01 {
-    width:400px;
+    width:;
+	font-size:0.8em;
     float:left;
-	margin:10px;
+	margin:0.2em;
 }
 
 #footer .footer-logo {
-    width:260px;
+    width:10em;
     float:right;
 }
 
 #footer .footer-logo img {
     display:block;
-    width:200px;
-    margin:10px auto;
+    width:10em;
+    margin:0.2em auto;
 }
 #footer .footer-logo img:hover {
-    width:220px;
-    margin:10px auto;
-}
-.button {
-	font-style: normal;
-	font-family: roboto;
-	font-weight: 300;
-	text-align: center;
+    width:11em;
 }
