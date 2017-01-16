@@ -90,7 +90,8 @@ about us start
 	}
 	
 #products ul{
-    padding-left:0
+    padding-left:0;
+	margin:0 auto;
 	}	
 #products h1{
 	margin:1.6em 0 0;
@@ -98,14 +99,14 @@ about us start
 	
 #products .product1 {
 	width:100%;
+	height:600px;
+	margin:0;
+	overflow:hidden;
+	list-style:none;
 	background: url(../Elements/pic_ptt298.svg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow:hidden;
-	margin:0;
-	height: 30em;
-	list-style:none;
 	}
     .product1 h1{
 	   width:50%;
@@ -114,17 +115,20 @@ about us start
 	   width:50%;
 	   }
     .product1 button{
-	   background:#FFFFFF;
+	   background:#151c51;
 	   width:10em;
 	   height:3em;
-	   text-color:#000000;
+	   color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
 	   font-size: 0.8em;
 	   border-color: #151c51;
-	   border-size: 2px;
 	   text-decoration:none;
 		}
+     .product1 button a{
+		 color:#ffffff;
+	
+     }
 		
 
 #products .product2 {
@@ -135,7 +139,7 @@ about us start
 	background-size:cover;
 	overflow:hidden;
 	margin:0;
-	height:30em;
+	height:38em;
 	list-style:none;
 	}
 	
@@ -153,17 +157,18 @@ about us start
 	   }
 	
     .product2 button{
-	   background:#FFFFFF;
+	   background:#151c51;
 	   width:10em;
 	   height:3em;
-	   text-color:#000000;
+	   color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
 	   font-size: 0.8em;
 	   border-color: #151c51;
-	   border-size: 2px;
 	   float:right;
 		}
+     .product2 button a {
+	   color:#ffffff;}
 		
 		
 #products .product3 {
@@ -174,7 +179,7 @@ about us start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 30em;
+	height: 38em;
 	list-style:none;
 	}
     .product3 h1{
@@ -184,16 +189,16 @@ about us start
 	   width:100%;
 	   }
     .product3 button{
-	   background:#FFFFFF;
+	   background:#151c51;
 	   width:10em;
 	   height:3em;
-	   text-color:#000000;
+	   color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
 	   font-size: 0.8em;
 	   border-color: #151c51;
-	   border-size: 2px;
 		}
+     .product3 button a{color:#ffffff;}
 		
 
 
@@ -202,10 +207,10 @@ about us start
 	background: url(../Elements/pic_cat6.svg);
 	background-position:center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
 	overflow:hidden;
 	margin:0;
-	height:30em;
+	height:38em;
 	list-style:none;
 	}
 	
@@ -222,17 +227,18 @@ about us start
 	   }
 	
     .product4 button{
-	   background:#FFFFFF;
+	   background:#151c51;
 	   width:10em;
 	   height:3em;
-	   text-color:#000000;
+	   color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
 	   font-size: 0.8em;
 	   border-color: #151c51;
-	   border-size: 2px;
 	   float:right;
 		}
+     .product4 button a {color:#ffffff;}
+
 
 #products .product5 {
 	width:100%;
@@ -242,7 +248,7 @@ about us start
 	background-size: cover;
 	overflow:hidden;
 	margin:0;
-	height: 30em;
+	height: 38em;
 	list-style:none;
 	}
     .product5 h1{
@@ -252,16 +258,18 @@ about us start
 	   width:100%;}
 	  
     .product5 button{
-	   background:#FFFFFF;
+	   background:#151c51;
 	   width:10em;
 	   height:3em;
-	   text-color:#000000;
+	   color:#000000;
 	   font-family: roboto;
 	   font-weight:400;
 	   font-size: 0.8em;
 	   border-color: #151c51;
-	   border-size: 2px;
-		}			
+		}		
+    .product5 button a{
+	color:#ffffff;
+    }
 
 
 #contact{
@@ -286,6 +294,24 @@ about us start
 		width:80%;
 		margin:0 auto;
 		}
+    .form .submitButton{
+	  background-color: #ffffff;
+	  padding:0.5em 5%;
+	  text-decoration: none;
+	  font-family: roboto;
+	  font-style: normal;
+	  font-weight: 300;
+	  color: #151C51;
+      }
+    .form .submitbutton{
+	  padding:0.5em 5%;
+	  background-color: #ffffff;
+	  text-decoration: none;
+	  font-family: roboto;
+	  font-style: normal;
+	  font-weight: 300;
+	  color: #151C51;
+      }
 	.form input{
 		width:34%;
 		height:3em;
@@ -297,26 +323,6 @@ about us start
 		padding-left: 1%;
 		}
 		
-	#contact .buttom{
-	background: #FFFFFF;
-	width: 8em;
-	height: 2.8em;
-    text-align::center;
-	padding: 0.6em 1em;
-	margin: 0.2em 1em;
-	font-color: #151c51;
-	text-decoration: none;
-	text-align: center;
-	font-family: roboto;
-	font-style: normal;
-	font-weight: 300;
-	color: #151C51;
-		}
-	#contact .buttom: hover{
-	background: #151C51;
-	color: white;
-	border-style: none;
-		}
 		
 #footer{
 	width: 100%;
